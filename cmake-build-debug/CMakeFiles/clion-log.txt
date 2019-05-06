@@ -1,0 +1,15 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DInferenceEngine_DIR=/opt/intel/openvino/deployment_tools/inference_engine/share -DOpenCV_DIR=/opt/intel/openvino/opencv/ -G "CodeBlocks - Unix Makefiles" /opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo
+-- TBB include: TBB_INCLUDE_DIRS-NOTFOUND
+-- TBB Release lib: TBB_LIBRARIES_RELEASE-NOTFOUND
+-- TBB Debug lib: TBB_LIBRARIES_DEBUG-NOTFOUND
+CMake Warning at /opt/intel/openvino/deployment_tools/inference_engine/share/InferenceEngineConfig.cmake:31 (message):
+  TBB not found.  TBB support will be disabled.  IE_THREAD_SEQ is defined
+Call Stack (most recent call first):
+  /opt/intel/openvino/deployment_tools/inference_engine/share/ie_parallel.cmake:35 (ext_message)
+  /opt/intel/openvino/deployment_tools/inference_engine/src/extension/CMakeLists.txt:43 (set_ie_threading_interface_for)
+
+
+/usr/include
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug

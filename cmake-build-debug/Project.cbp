@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\share\;CMake Files\..\..\..\..\..\..\usr\share\OpenCV\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="human_pose_estimation_demo">
+				<Option output="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/human_pose_estimation_demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 human_pose_estimation_demo"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="human_pose_estimation_demo/fast">
+				<Option output="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/human_pose_estimation_demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 human_pose_estimation_demo/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/include/human_pose.hpp">
+			<Option target="human_pose_estimation_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/include/human_pose_estimation_demo.hpp">
+			<Option target="human_pose_estimation_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/include/human_pose_estimator.hpp">
+			<Option target="human_pose_estimation_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/include/peak.hpp">
+			<Option target="human_pose_estimation_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/include/render_human_pose.hpp">
+			<Option target="human_pose_estimation_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/main.cpp">
+			<Option target="human_pose_estimation_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/src/human_pose.cpp">
+			<Option target="human_pose_estimation_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/src/human_pose_estimator.cpp">
+			<Option target="human_pose_estimation_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/src/peak.cpp">
+			<Option target="human_pose_estimation_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/src/render_human_pose.cpp">
+			<Option target="human_pose_estimation_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/../../../../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/../../../../../../usr/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/../../../../../../usr/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/../../../../../../usr/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,1793 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Samples"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\share\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\share\;CMake Files\..\..\..\..\..\..\usr\share\OpenCV\;CMake Files\..\src\;CMake Files\..\src\extension\;CMake Files\..\src\extension\cmake\;CMake Files\thirdparty\;CMake Files\thirdparty\gflags\;CMake Files\thirdparty\gflags\cmake\;CMake Files\thirdparty\gflags\src\;CMake Files\common\;CMake Files\common\format_reader\;CMake Files\benchmark_app\;CMake Files\calibration_tool\;CMake Files\hello_classification\;CMake Files\hello_request_classification\;CMake Files\hello_shape_infer_ssd\;CMake Files\human_pose_estimation_demo\;CMake Files\object_detection_demo_yolov3_async\;CMake Files\pedestrian_tracker_demo\;CMake Files\perfcheck\;CMake Files\smart_classroom_demo\;CMake Files\speech_sample\;CMake Files\text_detection_demo\;CMake Files\validation_app\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gflags_nothreads_static">
+				<Option output="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug/lib/libgflags_nothreads.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/thirdparty/gflags"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
+					<Add option="-DNO_THREADS"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/thirdparty/gflags/include"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/thirdparty/gflags/src"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/thirdparty/gflags/include/gflags"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/thirdparty/gflags/Makefile&quot;  VERBOSE=1 gflags_nothreads_static"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/thirdparty/gflags/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/thirdparty/gflags/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/thirdparty/gflags/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gflags_nothreads_static/fast">
+				<Option output="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug/lib/libgflags_nothreads.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/thirdparty/gflags"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
+					<Add option="-DNO_THREADS"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/thirdparty/gflags/include"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/thirdparty/gflags/src"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/thirdparty/gflags/include/gflags"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/thirdparty/gflags/Makefile&quot;  VERBOSE=1 gflags_nothreads_static/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/thirdparty/gflags/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/thirdparty/gflags/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/thirdparty/gflags/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="format_reader">
+				<Option output="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug/lib/libformat_reader.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/common/format_reader"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_OPENCV"/>
+					<Add option="-DIMPLEMENT_FORMAT_READER"/>
+					<Add option="-DIMPLEMENT_INFERENCE_ENGINE_API"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common/format_reader"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/common/format_reader/Makefile&quot;  VERBOSE=1 format_reader"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/common/format_reader/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/common/format_reader/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/common/format_reader/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="format_reader/fast">
+				<Option output="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug/lib/libformat_reader.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/common/format_reader"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_OPENCV"/>
+					<Add option="-DIMPLEMENT_FORMAT_READER"/>
+					<Add option="-DIMPLEMENT_INFERENCE_ENGINE_API"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common/format_reader"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/common/format_reader/Makefile&quot;  VERBOSE=1 format_reader/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/common/format_reader/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/common/format_reader/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/common/format_reader/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ie_cpu_extension">
+				<Option output="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug/lib/libcpu_extension.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/ie_cpu_extension"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DIE_THREAD=IE_THREAD_SEQ"/>
+					<Add option="-DIMPLEMENT_INFERENCE_ENGINE_API"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common/format_reader"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/src/extension/PRIVATE"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/src/extension/common"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/include"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/src/extension"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/ie_cpu_extension/Makefile&quot;  VERBOSE=1 ie_cpu_extension"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/ie_cpu_extension/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/ie_cpu_extension/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/ie_cpu_extension/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ie_cpu_extension/fast">
+				<Option output="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug/lib/libcpu_extension.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/ie_cpu_extension"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DIE_THREAD=IE_THREAD_SEQ"/>
+					<Add option="-DIMPLEMENT_INFERENCE_ENGINE_API"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common/format_reader"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/src/extension/PRIVATE"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/src/extension/common"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/include"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/src/extension"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/ie_cpu_extension/Makefile&quot;  VERBOSE=1 ie_cpu_extension/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/ie_cpu_extension/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/ie_cpu_extension/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/ie_cpu_extension/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="benchmark_app">
+				<Option output="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug/benchmark_app" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DIE_THREAD=IE_THREAD_SEQ"/>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common/format_reader"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/include"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/src/extension"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/thirdparty/gflags/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/benchmark_app/Makefile&quot;  VERBOSE=1 benchmark_app"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/benchmark_app/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/benchmark_app/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/benchmark_app/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="benchmark_app/fast">
+				<Option output="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug/benchmark_app" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DIE_THREAD=IE_THREAD_SEQ"/>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common/format_reader"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/include"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/src/extension"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/thirdparty/gflags/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/benchmark_app/Makefile&quot;  VERBOSE=1 benchmark_app/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/benchmark_app/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/benchmark_app/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/benchmark_app/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="calibration_tool">
+				<Option output="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug/calibration_tool" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
+					<Add option="-DIE_THREAD=IE_THREAD_SEQ"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common/format_reader"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/calibration_tool/../classification_sample/core"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/calibration_tool/../common"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/calibration_tool/../common/os/windows"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/calibration_tool/../../include"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/calibration_tool/../validation_app"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/thirdparty/gflags/include"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/src/extension"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/calibration_tool/Makefile&quot;  VERBOSE=1 calibration_tool"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/calibration_tool/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/calibration_tool/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/calibration_tool/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="calibration_tool/fast">
+				<Option output="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug/calibration_tool" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
+					<Add option="-DIE_THREAD=IE_THREAD_SEQ"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common/format_reader"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/calibration_tool/../classification_sample/core"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/calibration_tool/../common"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/calibration_tool/../common/os/windows"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/calibration_tool/../../include"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/calibration_tool/../validation_app"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/thirdparty/gflags/include"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/src/extension"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/calibration_tool/Makefile&quot;  VERBOSE=1 calibration_tool/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/calibration_tool/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/calibration_tool/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/calibration_tool/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_classification">
+				<Option output="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug/hello_classification" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common/format_reader"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/hello_classification/Makefile&quot;  VERBOSE=1 hello_classification"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/hello_classification/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/hello_classification/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/hello_classification/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_classification/fast">
+				<Option output="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug/hello_classification" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common/format_reader"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/hello_classification/Makefile&quot;  VERBOSE=1 hello_classification/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/hello_classification/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/hello_classification/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/hello_classification/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_request_classification">
+				<Option output="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug/hello_request_classification" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common/format_reader"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/hello_request_classification/Makefile&quot;  VERBOSE=1 hello_request_classification"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/hello_request_classification/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/hello_request_classification/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/hello_request_classification/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_request_classification/fast">
+				<Option output="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug/hello_request_classification" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common/format_reader"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/hello_request_classification/Makefile&quot;  VERBOSE=1 hello_request_classification/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/hello_request_classification/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/hello_request_classification/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/hello_request_classification/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_shape_infer_ssd">
+				<Option output="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug/hello_shape_infer_ssd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DIE_THREAD=IE_THREAD_SEQ"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common/format_reader"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/include"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/src/extension"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/hello_shape_infer_ssd/Makefile&quot;  VERBOSE=1 hello_shape_infer_ssd"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/hello_shape_infer_ssd/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/hello_shape_infer_ssd/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/hello_shape_infer_ssd/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_shape_infer_ssd/fast">
+				<Option output="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug/hello_shape_infer_ssd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DIE_THREAD=IE_THREAD_SEQ"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common/format_reader"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/include"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/src/extension"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/hello_shape_infer_ssd/Makefile&quot;  VERBOSE=1 hello_shape_infer_ssd/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/hello_shape_infer_ssd/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/hello_shape_infer_ssd/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/hello_shape_infer_ssd/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="human_pose_estimation_demo">
+				<Option output="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug/human_pose_estimation_demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common/format_reader"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/human_pose_estimation_demo/include"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/include"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/thirdparty/gflags/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/human_pose_estimation_demo/Makefile&quot;  VERBOSE=1 human_pose_estimation_demo"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/human_pose_estimation_demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/human_pose_estimation_demo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/human_pose_estimation_demo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="human_pose_estimation_demo/fast">
+				<Option output="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug/human_pose_estimation_demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common/format_reader"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/human_pose_estimation_demo/include"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/include"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/thirdparty/gflags/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/human_pose_estimation_demo/Makefile&quot;  VERBOSE=1 human_pose_estimation_demo/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/human_pose_estimation_demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/human_pose_estimation_demo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/human_pose_estimation_demo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="object_detection_demo_yolov3_async">
+				<Option output="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug/object_detection_demo_yolov3_async" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DIE_THREAD=IE_THREAD_SEQ"/>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common/format_reader"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/src/extension"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/include"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/thirdparty/gflags/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/object_detection_demo_yolov3_async/Makefile&quot;  VERBOSE=1 object_detection_demo_yolov3_async"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/object_detection_demo_yolov3_async/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/object_detection_demo_yolov3_async/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/object_detection_demo_yolov3_async/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="object_detection_demo_yolov3_async/fast">
+				<Option output="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug/object_detection_demo_yolov3_async" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DIE_THREAD=IE_THREAD_SEQ"/>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common/format_reader"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/src/extension"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/include"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/thirdparty/gflags/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/object_detection_demo_yolov3_async/Makefile&quot;  VERBOSE=1 object_detection_demo_yolov3_async/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/object_detection_demo_yolov3_async/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/object_detection_demo_yolov3_async/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/object_detection_demo_yolov3_async/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pedestrian_tracker_demo">
+				<Option output="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug/pedestrian_tracker_demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DIE_THREAD=IE_THREAD_SEQ"/>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common/format_reader"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/pedestrian_tracker_demo/include"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/src/extension"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/include"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/thirdparty/gflags/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/pedestrian_tracker_demo/Makefile&quot;  VERBOSE=1 pedestrian_tracker_demo"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/pedestrian_tracker_demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/pedestrian_tracker_demo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/pedestrian_tracker_demo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pedestrian_tracker_demo/fast">
+				<Option output="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug/pedestrian_tracker_demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DIE_THREAD=IE_THREAD_SEQ"/>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common/format_reader"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/pedestrian_tracker_demo/include"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/src/extension"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/include"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/thirdparty/gflags/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/pedestrian_tracker_demo/Makefile&quot;  VERBOSE=1 pedestrian_tracker_demo/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/pedestrian_tracker_demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/pedestrian_tracker_demo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/pedestrian_tracker_demo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="perfcheck">
+				<Option output="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug/perfcheck" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DIE_THREAD=IE_THREAD_SEQ"/>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common/format_reader"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/include"/>
+					<Add directory="/samples/common"/>
+					<Add directory="/samples/common/format_reader"/>
+					<Add directory="/samples/common/os/windows"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/src/vpu/graph_transformer/include"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/include"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/src/extension"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/thirdparty/gflags/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/perfcheck/Makefile&quot;  VERBOSE=1 perfcheck"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/perfcheck/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/perfcheck/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/perfcheck/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="perfcheck/fast">
+				<Option output="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug/perfcheck" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DIE_THREAD=IE_THREAD_SEQ"/>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common/format_reader"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/include"/>
+					<Add directory="/samples/common"/>
+					<Add directory="/samples/common/format_reader"/>
+					<Add directory="/samples/common/os/windows"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/src/vpu/graph_transformer/include"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/include"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/src/extension"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/thirdparty/gflags/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/perfcheck/Makefile&quot;  VERBOSE=1 perfcheck/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/perfcheck/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/perfcheck/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/perfcheck/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="smart_classroom_demo">
+				<Option output="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug/smart_classroom_demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DIE_THREAD=IE_THREAD_SEQ"/>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common/format_reader"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/smart_classroom_demo/include"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/src/extension"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/include"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/thirdparty/gflags/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/smart_classroom_demo/Makefile&quot;  VERBOSE=1 smart_classroom_demo"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/smart_classroom_demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/smart_classroom_demo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/smart_classroom_demo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="smart_classroom_demo/fast">
+				<Option output="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug/smart_classroom_demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DIE_THREAD=IE_THREAD_SEQ"/>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common/format_reader"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/smart_classroom_demo/include"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/src/extension"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/include"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/thirdparty/gflags/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/smart_classroom_demo/Makefile&quot;  VERBOSE=1 smart_classroom_demo/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/smart_classroom_demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/smart_classroom_demo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/smart_classroom_demo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="speech_sample">
+				<Option output="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug/speech_sample" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DIE_THREAD=IE_THREAD_SEQ"/>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common/format_reader"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/include"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/src/extension"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/thirdparty/gflags/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/speech_sample/Makefile&quot;  VERBOSE=1 speech_sample"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/speech_sample/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/speech_sample/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/speech_sample/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="speech_sample/fast">
+				<Option output="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug/speech_sample" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DIE_THREAD=IE_THREAD_SEQ"/>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common/format_reader"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/include"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/src/extension"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/thirdparty/gflags/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/speech_sample/Makefile&quot;  VERBOSE=1 speech_sample/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/speech_sample/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/speech_sample/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/speech_sample/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="text_detection_demo">
+				<Option output="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug/text_detection_demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DIE_THREAD=IE_THREAD_SEQ"/>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common/format_reader"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/text_detection_demo/include"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/src/extension"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/include"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/thirdparty/gflags/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/text_detection_demo/Makefile&quot;  VERBOSE=1 text_detection_demo"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/text_detection_demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/text_detection_demo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/text_detection_demo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="text_detection_demo/fast">
+				<Option output="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug/text_detection_demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DIE_THREAD=IE_THREAD_SEQ"/>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common/format_reader"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/text_detection_demo/include"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/src/extension"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/include"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/thirdparty/gflags/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/text_detection_demo/Makefile&quot;  VERBOSE=1 text_detection_demo/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/text_detection_demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/text_detection_demo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/text_detection_demo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="validation_app">
+				<Option output="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug/validation_app" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
+					<Add option="-DIE_THREAD=IE_THREAD_SEQ"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common/format_reader"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/validation_app/../classification_sample/core"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/validation_app/../common"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/validation_app/../common/os/windows"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/validation_app/../../include"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/thirdparty/gflags/include"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/src/extension"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/validation_app/Makefile&quot;  VERBOSE=1 validation_app"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/validation_app/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/validation_app/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/validation_app/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="validation_app/fast">
+				<Option output="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug/validation_app" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/armv7l/Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
+					<Add option="-DIE_THREAD=IE_THREAD_SEQ"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/common/format_reader"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/validation_app/../classification_sample/core"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/validation_app/../common"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/validation_app/../common/os/windows"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/validation_app/../../include"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/thirdparty/gflags/include"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/src/extension"/>
+					<Add directory="/opt/intel/openvino/deployment_tools/inference_engine/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/validation_app/Makefile&quot;  VERBOSE=1 validation_app/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/validation_app/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/validation_app/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/validation_app/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/benchmark_app/main.cpp">
+			<Option target="benchmark_app"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/benchmark_app/statistics_report.cpp">
+			<Option target="benchmark_app"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/benchmark_app/statistics_report.hpp">
+			<Option target="benchmark_app"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/calibration_tool/calibrator_processors.cpp">
+			<Option target="calibration_tool"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/calibration_tool/calibrator_processors.h">
+			<Option target="calibration_tool"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/calibration_tool/data_stats.cpp">
+			<Option target="calibration_tool"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/calibration_tool/data_stats.h">
+			<Option target="calibration_tool"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/calibration_tool/main.cpp">
+			<Option target="calibration_tool"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/thirdparty/gflags/include/gflags/config.h">
+			<Option target="gflags_nothreads_static"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/thirdparty/gflags/include/gflags/gflags.h">
+			<Option target="gflags_nothreads_static"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/thirdparty/gflags/include/gflags/gflags_completions.h">
+			<Option target="gflags_nothreads_static"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/cmake-build-debug/thirdparty/gflags/include/gflags/gflags_declare.h">
+			<Option target="gflags_nothreads_static"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/common/format_reader/MnistUbyte.cpp">
+			<Option target="format_reader"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/common/format_reader/MnistUbyte.h">
+			<Option target="format_reader"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/common/format_reader/bmp.cpp">
+			<Option target="format_reader"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/common/format_reader/bmp.h">
+			<Option target="format_reader"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/common/format_reader/format_reader.cpp">
+			<Option target="format_reader"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/common/format_reader/format_reader.h">
+			<Option target="format_reader"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/common/format_reader/format_reader_ptr.h">
+			<Option target="format_reader"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/common/format_reader/opencv_wraper.cpp">
+			<Option target="format_reader"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/common/format_reader/opencv_wraper.h">
+			<Option target="format_reader"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/common/format_reader/register.h">
+			<Option target="format_reader"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/hello_classification/main.cpp">
+			<Option target="hello_classification"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/hello_request_classification/main.cpp">
+			<Option target="hello_request_classification"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/hello_shape_infer_ssd/main.cpp">
+			<Option target="hello_shape_infer_ssd"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/hello_shape_infer_ssd/shape_infer_extension.hpp">
+			<Option target="hello_shape_infer_ssd"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/human_pose_estimation_demo/include/human_pose.hpp">
+			<Option target="human_pose_estimation_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/human_pose_estimation_demo/include/human_pose_estimation_demo.hpp">
+			<Option target="human_pose_estimation_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/human_pose_estimation_demo/include/human_pose_estimator.hpp">
+			<Option target="human_pose_estimation_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/human_pose_estimation_demo/include/peak.hpp">
+			<Option target="human_pose_estimation_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/human_pose_estimation_demo/include/render_human_pose.hpp">
+			<Option target="human_pose_estimation_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/human_pose_estimation_demo/main.cpp">
+			<Option target="human_pose_estimation_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/human_pose_estimation_demo/src/human_pose.cpp">
+			<Option target="human_pose_estimation_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/human_pose_estimation_demo/src/human_pose_estimator.cpp">
+			<Option target="human_pose_estimation_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/human_pose_estimation_demo/src/peak.cpp">
+			<Option target="human_pose_estimation_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/human_pose_estimation_demo/src/render_human_pose.cpp">
+			<Option target="human_pose_estimation_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/object_detection_demo_yolov3_async/main.cpp">
+			<Option target="object_detection_demo_yolov3_async"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/pedestrian_tracker_demo/include/cnn.hpp">
+			<Option target="pedestrian_tracker_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/pedestrian_tracker_demo/include/core.hpp">
+			<Option target="pedestrian_tracker_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/pedestrian_tracker_demo/include/descriptor.hpp">
+			<Option target="pedestrian_tracker_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/pedestrian_tracker_demo/include/detector.hpp">
+			<Option target="pedestrian_tracker_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/pedestrian_tracker_demo/include/distance.hpp">
+			<Option target="pedestrian_tracker_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/pedestrian_tracker_demo/include/image_reader.hpp">
+			<Option target="pedestrian_tracker_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/pedestrian_tracker_demo/include/kuhn_munkres.hpp">
+			<Option target="pedestrian_tracker_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/pedestrian_tracker_demo/include/logging.hpp">
+			<Option target="pedestrian_tracker_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/pedestrian_tracker_demo/include/pedestrian_tracker_demo.hpp">
+			<Option target="pedestrian_tracker_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/pedestrian_tracker_demo/include/tracker.hpp">
+			<Option target="pedestrian_tracker_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/pedestrian_tracker_demo/include/utils.hpp">
+			<Option target="pedestrian_tracker_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/pedestrian_tracker_demo/main.cpp">
+			<Option target="pedestrian_tracker_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/pedestrian_tracker_demo/src/cnn.cpp">
+			<Option target="pedestrian_tracker_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/pedestrian_tracker_demo/src/core.cpp">
+			<Option target="pedestrian_tracker_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/pedestrian_tracker_demo/src/detector.cpp">
+			<Option target="pedestrian_tracker_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/pedestrian_tracker_demo/src/distance.cpp">
+			<Option target="pedestrian_tracker_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/pedestrian_tracker_demo/src/image_reader.cpp">
+			<Option target="pedestrian_tracker_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/pedestrian_tracker_demo/src/kuhn_munkres.cpp">
+			<Option target="pedestrian_tracker_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/pedestrian_tracker_demo/src/tracker.cpp">
+			<Option target="pedestrian_tracker_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/pedestrian_tracker_demo/src/utils.cpp">
+			<Option target="pedestrian_tracker_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/perfcheck/main.cpp">
+			<Option target="perfcheck"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/smart_classroom_demo/include/action_detector.hpp">
+			<Option target="smart_classroom_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/smart_classroom_demo/include/cnn.hpp">
+			<Option target="smart_classroom_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/smart_classroom_demo/include/detector.hpp">
+			<Option target="smart_classroom_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/smart_classroom_demo/include/face_reid.hpp">
+			<Option target="smart_classroom_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/smart_classroom_demo/include/image_grabber.hpp">
+			<Option target="smart_classroom_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/smart_classroom_demo/include/logger.hpp">
+			<Option target="smart_classroom_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/smart_classroom_demo/include/tracker.hpp">
+			<Option target="smart_classroom_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/smart_classroom_demo/main.cpp">
+			<Option target="smart_classroom_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/smart_classroom_demo/src/action_detector.cpp">
+			<Option target="smart_classroom_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/smart_classroom_demo/src/align_transform.cpp">
+			<Option target="smart_classroom_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/smart_classroom_demo/src/cnn.cpp">
+			<Option target="smart_classroom_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/smart_classroom_demo/src/detector.cpp">
+			<Option target="smart_classroom_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/smart_classroom_demo/src/image_grabber.cpp">
+			<Option target="smart_classroom_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/smart_classroom_demo/src/logger.cpp">
+			<Option target="smart_classroom_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/smart_classroom_demo/src/reid_gallery.cpp">
+			<Option target="smart_classroom_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/smart_classroom_demo/src/tracker.cpp">
+			<Option target="smart_classroom_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/speech_sample/main.cpp">
+			<Option target="speech_sample"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/text_detection_demo/include/cnn.hpp">
+			<Option target="text_detection_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/text_detection_demo/include/image_grabber.hpp">
+			<Option target="text_detection_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/text_detection_demo/include/text_detection.hpp">
+			<Option target="text_detection_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/text_detection_demo/include/text_recognition.hpp">
+			<Option target="text_detection_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/text_detection_demo/main.cpp">
+			<Option target="text_detection_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/text_detection_demo/src/cnn.cpp">
+			<Option target="text_detection_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/text_detection_demo/src/image_grabber.cpp">
+			<Option target="text_detection_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/text_detection_demo/src/text_detection.cpp">
+			<Option target="text_detection_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/text_detection_demo/src/text_recognition.cpp">
+			<Option target="text_detection_demo"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/thirdparty/gflags/src/gflags.cc">
+			<Option target="gflags_nothreads_static"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/thirdparty/gflags/src/gflags_completions.cc">
+			<Option target="gflags_nothreads_static"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/thirdparty/gflags/src/gflags_reporting.cc">
+			<Option target="gflags_nothreads_static"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/thirdparty/gflags/src/mutex.h">
+			<Option target="gflags_nothreads_static"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/thirdparty/gflags/src/util.h">
+			<Option target="gflags_nothreads_static"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/validation_app/ClassificationProcessor.cpp">
+			<Option target="calibration_tool"/>
+			<Option target="validation_app"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/validation_app/ClassificationProcessor.hpp">
+			<Option target="validation_app"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/validation_app/ObjectDetectionProcessor.cpp">
+			<Option target="calibration_tool"/>
+			<Option target="validation_app"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/validation_app/ObjectDetectionProcessor.hpp">
+			<Option target="validation_app"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/validation_app/PreprocessingOptions.hpp">
+			<Option target="validation_app"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/validation_app/Processor.cpp">
+			<Option target="calibration_tool"/>
+			<Option target="validation_app"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/validation_app/Processor.hpp">
+			<Option target="validation_app"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/validation_app/SSDObjectDetectionProcessor.hpp">
+			<Option target="validation_app"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/validation_app/VOCAnnotationParser.cpp">
+			<Option target="calibration_tool"/>
+			<Option target="validation_app"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/validation_app/VOCAnnotationParser.hpp">
+			<Option target="validation_app"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/validation_app/YOLOObjectDetectionProcessor.hpp">
+			<Option target="validation_app"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/validation_app/classification_set_generator.cpp">
+			<Option target="calibration_tool"/>
+			<Option target="validation_app"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/validation_app/classification_set_generator.hpp">
+			<Option target="validation_app"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/validation_app/image_decoder.cpp">
+			<Option target="calibration_tool"/>
+			<Option target="validation_app"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/validation_app/image_decoder.hpp">
+			<Option target="validation_app"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/validation_app/main.cpp">
+			<Option target="validation_app"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/validation_app/pugixml/pugiconfig.hpp">
+			<Option target="validation_app"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/validation_app/pugixml/pugixml.cpp">
+			<Option target="calibration_tool"/>
+			<Option target="validation_app"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/validation_app/pugixml/pugixml.hpp">
+			<Option target="validation_app"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/validation_app/user_exception.hpp">
+			<Option target="validation_app"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/src/extension/ext_argmax.cpp">
+			<Option target="ie_cpu_extension"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/src/extension/ext_base.cpp">
+			<Option target="ie_cpu_extension"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/src/extension/ext_base.hpp">
+			<Option target="ie_cpu_extension"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/src/extension/ext_ctc_greedy.cpp">
+			<Option target="ie_cpu_extension"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/src/extension/ext_depth_to_space.cpp">
+			<Option target="ie_cpu_extension"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/src/extension/ext_detectionoutput.cpp">
+			<Option target="ie_cpu_extension"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/src/extension/ext_detectionoutput_onnx.cpp">
+			<Option target="ie_cpu_extension"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/src/extension/ext_expand.cpp">
+			<Option target="ie_cpu_extension"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/src/extension/ext_fill.cpp">
+			<Option target="ie_cpu_extension"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/src/extension/ext_gather.cpp">
+			<Option target="ie_cpu_extension"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/src/extension/ext_grn.cpp">
+			<Option target="ie_cpu_extension"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/src/extension/ext_interp.cpp">
+			<Option target="ie_cpu_extension"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/src/extension/ext_list.cpp">
+			<Option target="ie_cpu_extension"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/src/extension/ext_list.hpp">
+			<Option target="ie_cpu_extension"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/src/extension/ext_mvn.cpp">
+			<Option target="ie_cpu_extension"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/src/extension/ext_normalize.cpp">
+			<Option target="ie_cpu_extension"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/src/extension/ext_pad.cpp">
+			<Option target="ie_cpu_extension"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/src/extension/ext_powerfile.cpp">
+			<Option target="ie_cpu_extension"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/src/extension/ext_priorbox.cpp">
+			<Option target="ie_cpu_extension"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/src/extension/ext_priorbox_clustered.cpp">
+			<Option target="ie_cpu_extension"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/src/extension/ext_priorgridgenerator_onnx.cpp">
+			<Option target="ie_cpu_extension"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/src/extension/ext_proposal.cpp">
+			<Option target="ie_cpu_extension"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/src/extension/ext_proposal_onnx.cpp">
+			<Option target="ie_cpu_extension"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/src/extension/ext_psroi.cpp">
+			<Option target="ie_cpu_extension"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/src/extension/ext_range.cpp">
+			<Option target="ie_cpu_extension"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/src/extension/ext_region_yolo.cpp">
+			<Option target="ie_cpu_extension"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/src/extension/ext_reorg_yolo.cpp">
+			<Option target="ie_cpu_extension"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/src/extension/ext_resample.cpp">
+			<Option target="ie_cpu_extension"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/src/extension/ext_reverse_sequence.cpp">
+			<Option target="ie_cpu_extension"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/src/extension/ext_roifeatureextractor_onnx.cpp">
+			<Option target="ie_cpu_extension"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/src/extension/ext_shuffle_channels.cpp">
+			<Option target="ie_cpu_extension"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/src/extension/ext_simplernms.cpp">
+			<Option target="ie_cpu_extension"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/src/extension/ext_space_to_depth.cpp">
+			<Option target="ie_cpu_extension"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/src/extension/ext_squeeze.cpp">
+			<Option target="ie_cpu_extension"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/src/extension/ext_strided_slice.cpp">
+			<Option target="ie_cpu_extension"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/src/extension/ext_topkrois_onnx.cpp">
+			<Option target="ie_cpu_extension"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/src/extension/ext_unsqueeze.cpp">
+			<Option target="ie_cpu_extension"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/src/extension/simple_copy.cpp">
+			<Option target="ie_cpu_extension"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/src/extension/simple_copy.h">
+			<Option target="ie_cpu_extension"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../share/InferenceEngineConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\share\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../share/InferenceEngineConfig.cmake">
+			<Option virtualFolder="CMake Files\..\share\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../share/ie_parallel.cmake">
+			<Option virtualFolder="CMake Files\..\share\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../../../../../../usr/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../src/extension/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\src\extension\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../src/extension/cmake/feature_defs.cmake">
+			<Option virtualFolder="CMake Files\..\src\extension\cmake\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../src/extension/cmake/CPUID.cmake">
+			<Option virtualFolder="CMake Files\..\src\extension\cmake\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/../src/extension/cmake/OptimizationFlags.cmake">
+			<Option virtualFolder="CMake Files\..\src\extension\cmake\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/thirdparty/gflags/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\thirdparty\gflags\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/thirdparty/gflags/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\thirdparty\gflags\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/thirdparty/gflags/cmake/utils.cmake">
+			<Option virtualFolder="CMake Files\thirdparty\gflags\cmake\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/thirdparty/gflags/cmake/config.cmake.in">
+			<Option virtualFolder="CMake Files\thirdparty\gflags\cmake\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/thirdparty/gflags/cmake/version.cmake.in">
+			<Option virtualFolder="CMake Files\thirdparty\gflags\cmake\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/thirdparty/gflags/cmake/package.pc.in">
+			<Option virtualFolder="CMake Files\thirdparty\gflags\cmake\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/thirdparty/gflags/cmake/config.cmake.in">
+			<Option virtualFolder="CMake Files\thirdparty\gflags\cmake\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/thirdparty/gflags/cmake/utils.cmake">
+			<Option virtualFolder="CMake Files\thirdparty\gflags\cmake\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/thirdparty/gflags/cmake/config.cmake.in">
+			<Option virtualFolder="CMake Files\thirdparty\gflags\cmake\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/thirdparty/gflags/cmake/version.cmake.in">
+			<Option virtualFolder="CMake Files\thirdparty\gflags\cmake\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/thirdparty/gflags/cmake/package.pc.in">
+			<Option virtualFolder="CMake Files\thirdparty\gflags\cmake\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/thirdparty/gflags/cmake/config.cmake.in">
+			<Option virtualFolder="CMake Files\thirdparty\gflags\cmake\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/thirdparty/gflags/src/gflags.h.in">
+			<Option virtualFolder="CMake Files\thirdparty\gflags\src\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/thirdparty/gflags/src/gflags_declare.h.in">
+			<Option virtualFolder="CMake Files\thirdparty\gflags\src\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/thirdparty/gflags/src/gflags_completions.h.in">
+			<Option virtualFolder="CMake Files\thirdparty\gflags\src\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/thirdparty/gflags/src/config.h.in">
+			<Option virtualFolder="CMake Files\thirdparty\gflags\src\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/thirdparty/gflags/src/gflags.h.in">
+			<Option virtualFolder="CMake Files\thirdparty\gflags\src\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/thirdparty/gflags/src/gflags_declare.h.in">
+			<Option virtualFolder="CMake Files\thirdparty\gflags\src\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/thirdparty/gflags/src/gflags_completions.h.in">
+			<Option virtualFolder="CMake Files\thirdparty\gflags\src\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/thirdparty/gflags/src/config.h.in">
+			<Option virtualFolder="CMake Files\thirdparty\gflags\src\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/common/format_reader/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\common\format_reader\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/benchmark_app/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\benchmark_app\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/calibration_tool/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\calibration_tool\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/hello_classification/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hello_classification\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/hello_request_classification/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hello_request_classification\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/hello_shape_infer_ssd/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hello_shape_infer_ssd\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/human_pose_estimation_demo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\human_pose_estimation_demo\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/object_detection_demo_yolov3_async/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\object_detection_demo_yolov3_async\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/pedestrian_tracker_demo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\pedestrian_tracker_demo\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/perfcheck/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\perfcheck\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/smart_classroom_demo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\smart_classroom_demo\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/speech_sample/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\speech_sample\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/text_detection_demo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\text_detection_demo\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/deployment_tools/inference_engine/samples/validation_app/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\validation_app\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

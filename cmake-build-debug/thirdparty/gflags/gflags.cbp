@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="gflags"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\deployment_tools\;CMake Files\..\..\..\deployment_tools\inference_engine\;CMake Files\..\..\..\deployment_tools\inference_engine\share\;CMake Files\..\..\..\deployment_tools\inference_engine\src\;CMake Files\..\..\..\deployment_tools\inference_engine\src\extension\;CMake Files\..\..\..\deployment_tools\inference_engine\src\extension\cmake\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\cmake\;CMake Files\thirdparty\;CMake Files\thirdparty\gflags\;CMake Files\thirdparty\gflags\cmake\;CMake Files\thirdparty\gflags\src\;CMake Files\common\;CMake Files\common\format_reader\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/thirdparty/gflags"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/thirdparty/gflags/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/thirdparty/gflags/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/thirdparty/gflags/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/thirdparty/gflags/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gflags_nothreads_static">
+				<Option output="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/thirdparty/gflags/libgflags_nothreads.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/thirdparty/gflags"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
+					<Add option="-DNO_THREADS"/>
+					<Add directory="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/thirdparty/gflags/include"/>
+					<Add directory="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/thirdparty/gflags/src"/>
+					<Add directory="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/thirdparty/gflags/include/gflags"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/thirdparty/gflags/Makefile&quot;  VERBOSE=1 gflags_nothreads_static"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/thirdparty/gflags/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/thirdparty/gflags/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/thirdparty/gflags/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gflags_nothreads_static/fast">
+				<Option output="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/thirdparty/gflags/libgflags_nothreads.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/thirdparty/gflags"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
+					<Add option="-DNO_THREADS"/>
+					<Add directory="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/thirdparty/gflags/include"/>
+					<Add directory="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/thirdparty/gflags/src"/>
+					<Add directory="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/thirdparty/gflags/include/gflags"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/thirdparty/gflags/Makefile&quot;  VERBOSE=1 gflags_nothreads_static/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/thirdparty/gflags/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/thirdparty/gflags/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/thirdparty/gflags/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/thirdparty/gflags/include/gflags/config.h">
+			<Option target="gflags_nothreads_static"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/thirdparty/gflags/include/gflags/gflags.h">
+			<Option target="gflags_nothreads_static"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/thirdparty/gflags/include/gflags/gflags_completions.h">
+			<Option target="gflags_nothreads_static"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/cmake-build-debug/thirdparty/gflags/include/gflags/gflags_declare.h">
+			<Option target="gflags_nothreads_static"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/thirdparty/gflags/src/gflags.cc">
+			<Option target="gflags_nothreads_static"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/thirdparty/gflags/src/gflags_completions.cc">
+			<Option target="gflags_nothreads_static"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/thirdparty/gflags/src/gflags_reporting.cc">
+			<Option target="gflags_nothreads_static"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/thirdparty/gflags/src/mutex.h">
+			<Option target="gflags_nothreads_static"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/thirdparty/gflags/src/util.h">
+			<Option target="gflags_nothreads_static"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/../../../deployment_tools/inference_engine/share/InferenceEngineConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\deployment_tools\inference_engine\share\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/../../../deployment_tools/inference_engine/share/InferenceEngineConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\deployment_tools\inference_engine\share\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/../../../deployment_tools/inference_engine/share/ie_parallel.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\deployment_tools\inference_engine\share\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/../../../deployment_tools/inference_engine/src/extension/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\deployment_tools\inference_engine\src\extension\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/../../../deployment_tools/inference_engine/src/extension/cmake/feature_defs.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\deployment_tools\inference_engine\src\extension\cmake\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/../../../deployment_tools/inference_engine/src/extension/cmake/CPUID.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\deployment_tools\inference_engine\src\extension\cmake\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/../../../deployment_tools/inference_engine/src/extension/cmake/OptimizationFlags.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\deployment_tools\inference_engine\src\extension\cmake\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/../../../../../../usr/cmake/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\cmake\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/../../../../../../usr/cmake/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\cmake\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/../../../../../../usr/cmake/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\cmake\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/../../../../../../usr/cmake/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\cmake\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/../../../../../../usr/cmake/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\cmake\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/../../../../../../usr/cmake/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\cmake\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/../../../../../../usr/cmake/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\cmake\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/../../../../../../usr/cmake/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\cmake\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/thirdparty/gflags/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\thirdparty\gflags\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/thirdparty/gflags/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\thirdparty\gflags\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/thirdparty/gflags/cmake/utils.cmake">
+			<Option virtualFolder="CMake Files\thirdparty\gflags\cmake\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/thirdparty/gflags/cmake/config.cmake.in">
+			<Option virtualFolder="CMake Files\thirdparty\gflags\cmake\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/thirdparty/gflags/cmake/version.cmake.in">
+			<Option virtualFolder="CMake Files\thirdparty\gflags\cmake\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/thirdparty/gflags/cmake/package.pc.in">
+			<Option virtualFolder="CMake Files\thirdparty\gflags\cmake\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/thirdparty/gflags/cmake/config.cmake.in">
+			<Option virtualFolder="CMake Files\thirdparty\gflags\cmake\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/thirdparty/gflags/cmake/utils.cmake">
+			<Option virtualFolder="CMake Files\thirdparty\gflags\cmake\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/thirdparty/gflags/cmake/config.cmake.in">
+			<Option virtualFolder="CMake Files\thirdparty\gflags\cmake\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/thirdparty/gflags/cmake/version.cmake.in">
+			<Option virtualFolder="CMake Files\thirdparty\gflags\cmake\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/thirdparty/gflags/cmake/package.pc.in">
+			<Option virtualFolder="CMake Files\thirdparty\gflags\cmake\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/thirdparty/gflags/cmake/config.cmake.in">
+			<Option virtualFolder="CMake Files\thirdparty\gflags\cmake\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/thirdparty/gflags/src/gflags.h.in">
+			<Option virtualFolder="CMake Files\thirdparty\gflags\src\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/thirdparty/gflags/src/gflags_declare.h.in">
+			<Option virtualFolder="CMake Files\thirdparty\gflags\src\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/thirdparty/gflags/src/gflags_completions.h.in">
+			<Option virtualFolder="CMake Files\thirdparty\gflags\src\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/thirdparty/gflags/src/config.h.in">
+			<Option virtualFolder="CMake Files\thirdparty\gflags\src\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/thirdparty/gflags/src/gflags.h.in">
+			<Option virtualFolder="CMake Files\thirdparty\gflags\src\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/thirdparty/gflags/src/gflags_declare.h.in">
+			<Option virtualFolder="CMake Files\thirdparty\gflags\src\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/thirdparty/gflags/src/gflags_completions.h.in">
+			<Option virtualFolder="CMake Files\thirdparty\gflags\src\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/thirdparty/gflags/src/config.h.in">
+			<Option virtualFolder="CMake Files\thirdparty\gflags\src\"/>
+		</Unit>
+		<Unit filename="/opt/intel/openvino/inference_engine/samples/human_pose_estimation_demo/common/format_reader/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\common\format_reader\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

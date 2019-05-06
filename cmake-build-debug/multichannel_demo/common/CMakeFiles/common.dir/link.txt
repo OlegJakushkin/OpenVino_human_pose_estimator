@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../armv7l/Debug/lib/libcommon.a  CMakeFiles/common.dir/decoder.cpp.o CMakeFiles/common.dir/graph.cpp.o CMakeFiles/common.dir/input.cpp.o CMakeFiles/common.dir/output.cpp.o CMakeFiles/common.dir/perf_timer.cpp.o CMakeFiles/common.dir/threading.cpp.o
+/usr/bin/ranlib ../../armv7l/Debug/lib/libcommon.a
