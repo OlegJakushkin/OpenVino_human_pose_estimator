@@ -1,6 +1,8 @@
 
 1) Copy bound Intel opencv/* into /usr/
 
+2) Cmake settings -DInferenceEngine_DIR="/opt/intel/openvino/deployment_tools/inference_engine/share" -DOpenCV_DIR="/opt/intel/openvino/opencv/"
+
 
 # Human Pose Estimation C++ Demo
 
